@@ -1,19 +1,19 @@
-alert ('Xush kelibsiz!')
-var name = prompt('Ismingizni kiriting: ', 'Firdavs').trim();
-var lastName = prompt('Familiyangizni kiriting: ', 'Fayozov').trim();
-var age = prompt('Yoshingizni kiriting: ', '15').trim();
-var occupation = prompt('Kasbingizni kiriting: ', 'dasturchi').trim();
-var orint = prompt('Manzilingizni kiriting: ', 'Toshkent').trim();
-alert('Rahmat')
+alert ('Welcome to our site!')
+var name = prompt('Enter your name: ', 'Firdavs').trim();
+var lastName = prompt('Enter your lastName: ', 'Fayozov').trim();
+var age = prompt('Enter your age: ', '15').trim();
+var occupation = prompt('Enter your occupation: ', 'Web dev').trim();
+var orint = prompt('Enter your address: ', 'Toshkent').trim();
+alert('Thanks for the information 👦🏼 ')
 console.log(`
-Ismingiz: ${name}. 
-Familiyangiz: ${lastName}. 
-Yoshingiz: ${age}da.
-Kasbingiz ${occupation}. 
-Manzilingiz: ${orint}.`)
+Ismingiz: ${name}
+Familiyangiz: ${lastName}
+Yoshingiz: ${age}da
+Kasbingiz ${occupation}
+Manzilingiz: ${orint}`)
 document.getElementById('infoHumanName').innerHTML = 'Ism: '+ name;
 document.getElementById('infoHumanLastName').innerHTML = 'Familiya: '+ lastName;
-document.getElementById('infoHumanAge').innerHTML = 'Yosh: '+ age;
+document.getElementById('infoHumanAge').innerHTML = 'Yosh: '+ age + 'da';
 document.getElementById('infoHumanOccupation').innerHTML = 'Kasb: '+ occupation;
 document.getElementById('infoHumanOrint').innerHTML = 'Manzil: '+ orint;
 
