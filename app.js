@@ -11,11 +11,6 @@ Familiyangiz: ${lastName}
 Yoshingiz: ${age}da
 Kasbingiz ${occupation}
 Manzilingiz: ${orint}`)
-document.getElementById('infoHumanName').innerHTML = 'Ism: '+ name;
-document.getElementById('infoHumanLastName').innerHTML = 'Familiya: '+ lastName;
-document.getElementById('infoHumanAge').innerHTML = 'Yosh: '+ age + 'da';
-document.getElementById('infoHumanOccupation').innerHTML = 'Kasb: '+ occupation;
-document.getElementById('infoHumanOrint').innerHTML = 'Manzil: '+ orint;
 
 
 
